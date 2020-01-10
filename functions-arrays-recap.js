@@ -103,7 +103,7 @@ var wordsUnique = [
 
 // Finding Elements
 function doesWordExist(array, word) {
-  array.includes(word);
+  return array.includes(word);
 }
 
 var wordsFind = [
